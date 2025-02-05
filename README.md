@@ -1,59 +1,115 @@
-# Pet Promise
+# 🐾 Pet Promise  
 
-Pet Promise is a comprehensive platform designed to make pet care, pet adoption, and pet donation campaigns easier and more accessible for everyone. Whether you're looking to adopt a pet, start a donation campaign, or contribute to the welfare of pets, Pet Promise has you covered.
-
----
-
-## live link : https://pet-promise.web.app/
-
-## Purpose
-
-Pet Promise is built with the following goals:
-- **Pet Care**: Facilitate better care for pets by connecting them to the right people.
-- **Pet Adoption**: Provide a seamless platform for adopting pets.
-- **Donation Campaigns**: Allow users to create and contribute to donation campaigns for pets in need.
+**Pet Promise** is a comprehensive platform designed to make pet care, pet adoption, and pet donation campaigns easier and more accessible for everyone. Whether you're looking to adopt a pet, start a donation campaign, or contribute to the welfare of pets, **Pet Promise** has you covered.  
 
 ---
 
-## Key Features
-
-1. **User Registration**
-   - Users can register and upload a profile image during the signup process.
-
-2. **Adopt a Pet**
-   - Browse and adopt pets that are up for adoption.
-
-3. **Add Pets for Adoption**
-   - Registered users can list pets for adoption by providing relevant details.
-
-4. **Create Donation Campaigns**
-   - Users can initiate donation campaigns for pets in need.
-
-5. **Donate for Pets**
-   - Support ongoing campaigns by donating to pets in need.
-
-6. **Interactive and User-Friendly Interface**
-   - Smooth and visually engaging experience with modern UI components and animations.
+## 📸 Screenshot  
+![Pet Promise Screenshot](https://i.ibb.co.com/PvBF7kdg/image.png)  
 
 ---
 
-## Tech Stack
+## 🚀 Technologies Used  
 
-**Frontend:** React.js
+Pet Promise is built using the following technologies:  
+
+- **Frontend:** [React](https://react.dev/), [React Router](https://reactrouter.com/), [Framer Motion](https://www.framer.com/motion/), [React Hook Form](https://react-hook-form.com/)  
+- **State Management & API Handling:** [React Query](https://tanstack.com/query/latest/), [Axios](https://axios-http.com/)  
+- **UI Components & Styling:** [Tailwind CSS](https://tailwindcss.com/), [Flowbite React](https://flowbite-react.com/), [React Icons](https://react-icons.github.io/react-icons/), [React Select](https://react-select.com/)  
+- **Authentication & Backend:** [Firebase](https://firebase.google.com/)  
+- **Payments:** [Stripe](https://stripe.com/)  
+- **Other Libraries:** [React Quill](https://react-quill.js.org/), [React Lottie](https://lottiefiles.com/web-player), [React Spinners](https://www.npmjs.com/package/react-spinners), [SweetAlert2](https://sweetalert2.github.io/), [DOMPurify](https://www.npmjs.com/package/dompurify)  
 
 ---
 
-## NPM Packages Used
+## 🌟 Features  
 
-The following npm packages were used to enhance the functionality and user experience of Pet Promise:
+✅ **Adopt a Pet** – Browse and adopt pets easily.  
+✅ **Start a Donation Campaign** – Create and manage pet donation campaigns.  
+✅ **Secure Payments** – Integrated Stripe payment system for donations.  
+✅ **Interactive UI** – Smooth animations with Framer Motion.  
+✅ **Advanced Search & Filtering** – Find pets based on preferences.  
+✅ **Rich Text Editing** – Manage posts with React Quill.  
+✅ **Real-time Updates** – Optimized with React Query.  
 
-- **[React Slick Carousel]**: For creating responsive and visually appealing carousels.
-- **[React Hook Form]**: Simplifying form handling with easy validation.
-- **[Axios]**: To handle API requests efficiently.
-- **[TanStack Query]**: For data fetching and state management.
-- **[Framer Motion]**: To add smooth animations and transitions.
-- **[React Icons]**: For a rich set of icons to improve UI design.
-- **[React Spinners]**: To show loading spinners for better user experience.
-- **[SweetAlert2]**: For elegant alert popups.
-- **[Flowbite]**: For pre-styled UI components using Tailwind CSS.
-- **[React Hot Toast]**: For displaying toast notifications.
+---
+
+## 📦 Dependencies  
+
+### Main Dependencies  
+```json
+{
+  "@stripe/react-stripe-js": "^3.1.1",
+  "@stripe/stripe-js": "^5.5.0",
+  "@tanstack/react-query": "^5.64.1",
+  "@tanstack/react-table": "^8.20.6",
+  "axios": "^1.7.9",
+  "firebase": "^11.1.0",
+  "framer-motion": "^12.0.6",
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1",
+  "react-hook-form": "^7.54.2",
+  "react-icons": "^5.4.0",
+  "react-router-dom": "^7.1.1",
+  "react-quill": "^2.0.0",
+  "react-select": "^5.9.0",
+  "react-spinners": "^0.15.0",
+  "sweetalert2": "^11.15.10",
+  "tailwind-scrollbar": "^3.1.0"
+}
+
+
+## 📦 Development Dependencies:
+"@eslint/js": "^9.17.0",
+"@vitejs/plugin-react": "^4.3.4",
+"eslint": "^9.17.0",
+"postcss": "^8.5.0",
+"tailwindcss": "^3.4.17",
+"vite": "^6.0.5"
+
+
+# 🛠 How to Run the Project Locally
+Follow these steps to set up and run the project on your local machine:
+
+1. **Clone the Repository:**
+git clone https://github.com/shahalimshompod/pet-promise-client
+cd pet-promise
+
+2. **Install Dependencies:**
+npm install
+
+3. **Run the Development Server:**
+npm run dev
+
+4. **Build the Project (Optional):**
+npm run build
+
+5. **Preview the Build (Optional):**
+npm run preview
+
+
+## 🌍 Live Demo
+Petpromise live link: https://pet-promise.web.app/
+
+## 📌 Notes
+1. Ensure you have Node.js and npm installed before running the project.
+2. If you face issues, check your Firebase and Stripe configuration settings.
+
+## 👥 Contributors
+Shah Alim Shompod - https://github.com/shahalimshompod
+
+
+## 📜 License
+
+**This project is licensed under the MIT License.**
+
+
+---
+
+### ✅ Next Steps for You:  
+1. **Replace the screenshot placeholder** with an actual image.  
+2. **Update the GitHub repository link** in the installation guide.  
+3. **Add the live demo link** where mentioned.  
+4. **Edit the contributor section** to add your name.  
+
+Let me know if you need any modifications! 🚀
