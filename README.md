@@ -60,56 +60,67 @@ Pet Promise is built using the following technologies:
 
 
 ## 📦 Development Dependencies:
-"@eslint/js": "^9.17.0",
-"@vitejs/plugin-react": "^4.3.4",
-"eslint": "^9.17.0",
-"postcss": "^8.5.0",
-"tailwindcss": "^3.4.17",
-"vite": "^6.0.5"
+```json
+{
+  "@eslint/js": "^9.17.0",
+  "@vitejs/plugin-react": "^4.3.4",
+  "eslint": "^9.17.0",
+  "postcss": "^8.5.0",
+  "tailwindcss": "^3.4.17",
+  "vite": "^6.0.5"
+}
 
 
-# 🛠 How to Run the Project Locally
-Follow these steps to set up and run the project on your local machine:
+# 🛠 How to Run the Project Locally  
+Follow these steps to set up and run the project on your local machine:  
 
-1. **Clone the Repository:**
+### 1️⃣ Clone the Repository  
+```sh
 git clone https://github.com/shahalimshompod/pet-promise-client
 cd pet-promise
+```
 
-2. **Install Dependencies:**
+### 2️⃣ Install Dependencies  
+```sh
 npm install
+```
 
-3. **Run the Development Server:**
+### 3️⃣ Run the Development Server  
+```sh
 npm run dev
+```
 
-4. **Build the Project (Optional):**
+### 4️⃣ Build the Project (Optional)  
+```sh
 npm run build
+```
 
-5. **Preview the Build (Optional):**
+### 5️⃣ Preview the Build (Optional)  
+```sh
 npm run preview
-
-
-## 🌍 Live Demo
-Petpromise live link: https://pet-promise.web.app/
-
-## 📌 Notes
-1. Ensure you have Node.js and npm installed before running the project.
-2. If you face issues, check your Firebase and Stripe configuration settings.
-
-## 👥 Contributors
-Shah Alim Shompod - https://github.com/shahalimshompod
-
-
-## 📜 License
-
-**This project is licensed under the MIT License.**
-
+```
 
 ---
 
-### ✅ Next Steps for You:  
-1. **Replace the screenshot placeholder** with an actual image.  
-2. **Update the GitHub repository link** in the installation guide.  
-3. **Add the live demo link** where mentioned.  
-4. **Edit the contributor section** to add your name.  
+## 🌍 Live Demo  
+🔗 **Live Project:** [Pet Promise](https://pet-promise.web.app/)  
 
-Let me know if you need any modifications! 🚀
+---
+
+## 📌 Notes  
+1️⃣ Ensure you have **Node.js** and **npm** installed before running the project.  
+2️⃣ If you face issues, check your **Firebase** and **Stripe** configuration settings.  
+
+---
+
+## 👥 Contributors  
+👤 **Shah Alim Shompod**  
+🔗 [GitHub Profile](https://github.com/shahalimshompod)  
+
+---
+
+## 📜 License  
+This project is licensed under the **MIT License**.  
+
+---
+
