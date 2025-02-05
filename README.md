@@ -57,6 +57,7 @@ Pet Promise is built using the following technologies:
   "sweetalert2": "^11.15.10",
   "tailwind-scrollbar": "^3.1.0"
 }
+```
 
 
 ## 📦 Development Dependencies:
@@ -69,6 +70,8 @@ Pet Promise is built using the following technologies:
   "tailwindcss": "^3.4.17",
   "vite": "^6.0.5"
 }
+```
+
 
 
 # 🛠 How to Run the Project Locally  
