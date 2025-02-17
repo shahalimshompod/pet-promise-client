@@ -20,7 +20,7 @@ const AboutUsSection = () => {
                     transition={{ duration: 1, delay: 0.2 }}
                     viewport={{ once: true }}
                     className="bg-gradient-to-tl from-cyan-100 via-cyan-50 to-cyan-100 dark:bg-gradient-to-br dark:from-[#111827]/80 dark:via-[#111827]/70 dark:to-[#111827]/80
-                    py-10 sm:py-14 md:py-16 lg:py-20 xl:py-28 w-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 2xl:px-20"
+                    py-8 sm:py-14 md:py-16 lg:py-20 xl:py-24 w-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 2xl:px-20"
                 >
                     <div className="max-w-3xl">
                         <h1 className="poppins font-bold text-xl sm:text-2xl md:text-3xl xl:text-5xl 2xl:text-6xl uppercase text-black/70 dark:text-white/50">

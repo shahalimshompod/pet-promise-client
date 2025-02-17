@@ -1,6 +1,6 @@
 const SubscribeSection = ({sectionJoinRef}) => {
     return (
-        <div ref={sectionJoinRef} className="flex flex-col items-center justify-center gap-6 py-20 bg-gradient-to-b from-cyan-50 to-cyan-100 dark:bg-gradient-to-br dark:from-[#111827]/80 dark:via-[#111827]/70 dark:to-[#111827]/80 px-3 xl:px-0">
+        <div ref={sectionJoinRef} className="flex flex-col items-center justify-center gap-6 py-8 md:py-16 xl:py-24 bg-gradient-to-b from-cyan-50 to-cyan-100 dark:bg-gradient-to-br dark:from-[#111827]/80 dark:via-[#111827]/70 dark:to-[#111827]/80 px-3 xl:px-0">
             {/* Heading */}
             <h1 className="poppins font-semibold text-2xl md:text-3xl lg:text-4xl text-center dark:text-white/70">
                 Subscribe to Pet Promise

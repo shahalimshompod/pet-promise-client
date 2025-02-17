@@ -15,7 +15,7 @@ const InspirationalSection = () => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
             viewport={{ once: true, amount: 0.2 }}
-            className="bg-cover bg-center py-16 bg-fixed px-3 xl:px-0 overflow-x-hidden"
+            className="bg-cover bg-center py-8 lg:py-24 bg-fixed px-3 xl:px-0 overflow-x-hidden"
             style={{ backgroundImage: `url(${bgImg})` }}
         >
             <div className="flex flex-col lg:flex-row items-center justify-between container mx-auto">

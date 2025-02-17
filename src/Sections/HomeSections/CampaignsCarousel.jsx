@@ -51,7 +51,7 @@ const CampaignsCarousel = () => {
 
     return (
         <div className='dark:bg-[#111827] bg-white'>
-            <div className='py-16  container mx-auto'>
+            <div className='py-8 md:py-16 xl:py-24  container mx-auto'>
                 <h1 className='poppins text-center text-xl lg:text-3xl xl:text-5xl font-bold text-black/70 dark:text-white'>
                     Help Our Furry Friends in Need 🐾
                 </h1>

@@ -21,7 +21,7 @@ const DonateSection = ({ sectionDonateRef }) => {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, delay: 0.2 }}
                     viewport={{ once: true }}
-                    className="w-full lg:w-1/2 px-6 py-12 lg:py-24 bg-cover bg-center bg-fixed"
+                    className="w-full lg:w-1/2 px-6 py-8 lg:py-24 bg-cover bg-center bg-fixed"
                     style={{ backgroundImage: `url(${donation})` }}
                 >
                     <div className="max-w-sm mx-auto p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col items-center gap-6">
