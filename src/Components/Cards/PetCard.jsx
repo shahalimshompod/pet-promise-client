@@ -8,8 +8,8 @@ const PetCard = ({ petData }) => {
             <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition duration-300">
 
                 {/* pet image */}
-                <div className='relative h-56 overflow-hidden'>
-                    <img className=" rounded-t-lg object-cover" src={petData.pet_image} alt="product image" />
+                <div className='relative h-48 overflow-hidden'>
+                    <img className="w-full rounded-t-lg object-cover" src={petData.pet_image} alt="product image" />
                     {/* added time */}
                     <p className='absolute top-3 left-3 bg-cyan-50 dark:bg-black/50 py-1 dark:text-cyan-50 px-3 rounded-md nunito text-xs'>{formatDistanceToNow(petData.createdAt, { addSuffix: true })}</p>
                 </div>

@@ -52,6 +52,10 @@ const Users = () => {
         }
     };
 
+    if(isLoading){
+        return
+    }
+
     return (
         <div className="bg-cyan-100 dark:bg-[#111827] w-full rounded-xl border-2 border-cyan-500 py-6 px-6">
             <h1 className="text-2xl poppins dark:text-cyan-50 text-[#111827] font-bold mb-4">
