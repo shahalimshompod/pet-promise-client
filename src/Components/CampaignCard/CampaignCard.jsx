@@ -41,7 +41,7 @@ const CampaignCard = ({ data, refetch, recRefetch }) => {
   };
 
   return (
-    <div className="w-full 2xl:w-[480px] bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transition duration-300">
+    <div className="w-[382px] bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transition duration-300">
       {/* Image Section */}
       <div className="bg-gray-200 dark:bg-gray-700 h-60 flex items-center justify-center overflow-hidden">
         <img
@@ -52,11 +52,11 @@ const CampaignCard = ({ data, refetch, recRefetch }) => {
       </div>
 
       {/* Content Section */}
-      <div className="p-6">
-        <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 text-center mb-4 poppins">
+      <div className="px-4 pb-4 pt-2">
+        <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 text-center poppins">
           {data.petName}
         </h3>
-        <p className="text-sm text-gray-600 dark:text-gray-400 mb-6 text-center poppins">
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-2 text-center poppins">
           {data.campaignTitle}
         </p>
 
@@ -67,19 +67,18 @@ const CampaignCard = ({ data, refetch, recRefetch }) => {
             style={{ width: `${progressPercentage}%` }}
           ></div>
         </div>
-        <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400 mt-2">
+        <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400 mt-1">
           <span className="nunito">${data.donatedAmount}</span>
           <span className="nunito">out of ${data.maxDonation}</span>
         </div>
 
         {/* Cause and Days Remaining */}
-        <div className="mt-6 text-sm text-gray-600 dark:text-gray-400 flex items-center justify-between">
+        <div className="text-sm text-gray-600 dark:text-gray-400 flex items-center justify-between">
           <p className="font-medium nunito flex items-center gap-3">
             <FaClock /> {daysRemaining.days} Days {daysRemaining.hours} hrs{" "}
             {daysRemaining.minutes} mins
           </p>
           <p className="nunito my-3 flex items-center gap-3">
-            <span>Status:</span>
             <span
               className={`font-medium nunito px-3 rounded text-white 
                             ${
@@ -111,7 +110,7 @@ const CampaignCard = ({ data, refetch, recRefetch }) => {
           <button
             onClick={handleNavigate}
             disabled={data?.expired || data?.isPaused}
-            className={`mt-6 w-full font-medium py-2 rounded-lg transition duration-300 shadow-md nunito 
+            className={`w-full font-medium py-2 rounded-lg transition duration-300 shadow-md nunito 
                         ${
                           data?.expired || data?.isPaused
                             ? "bg-slate-400 dark:bg-slate-500 dark:text-slate-700 text-slate-300"
@@ -124,7 +123,7 @@ const CampaignCard = ({ data, refetch, recRefetch }) => {
           <a href={`/donation-details/${data._id}`}>
             <button
               disabled={data?.expired || data?.isPaused}
-              className={`mt-6 w-full font-medium py-2 rounded-lg transition duration-300 shadow-md nunito 
+              className={`w-full font-medium py-2 rounded-lg transition duration-300 shadow-md nunito 
                       ${
                         data?.expired || data?.isPaused
                           ? "bg-slate-400 dark:bg-slate-500 dark:text-slate-700 text-slate-300"

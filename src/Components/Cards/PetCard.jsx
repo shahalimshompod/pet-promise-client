@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { formatDistanceToNow } from 'date-fns';
+import { IoLocationOutline } from "react-icons/io5";
 
 const PetCard = ({ petData }) => {
     return (
@@ -33,9 +34,9 @@ const PetCard = ({ petData }) => {
                     {/* <p className='roboto text-black dark:text-white mt-2'>Requested: <span className='font-semibold'>{data}</span></p> */}
 
                     {/* pet location and button */}
-                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mt-2 md:gap-0">
+                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-0">
                         {/* location */}
-                        <p className='roboto text-black dark:text-white md:w-7/12'>Location: <span className='font-semibold'>{petData.pet_location}</span></p>
+                        <p className='roboto text-black dark:text-white md:w-7/12 flex items-center gap-1'><IoLocationOutline /><span className='font-semibold'>{petData.pet_location}</span></p>
 
                         {/* view details button */}
                         <Link to={`/pet-details/${petData._id}`} className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600  hover:bg-gradient-to-br font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 nunito">Pet Details</Link>
