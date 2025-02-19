@@ -34,7 +34,7 @@ const AboutUsSection = () => {
                             whileTap={{ scale: 0.95 }}
                             type="button"
                             onClick={() => navigate('/about')}
-                            className="py-2.5 px-5 text-sm sm:text-base font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                            className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl font-medium rounded-lg px-4 py-2 text-center text-sm sm:text-base md:px-5 md:py-2.5 md:text-lg"
                         >
                             Learn More About Us
                         </motion.button>

@@ -41,7 +41,7 @@ const CampaignCard = ({ data, refetch, recRefetch }) => {
   };
 
   return (
-    <div className="w-[382px] bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transition duration-300">
+    <div className="w-full xl:w-[382px] bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transition duration-300">
       {/* Image Section */}
       <div className="bg-gray-200 dark:bg-gray-700 h-60 flex items-center justify-center overflow-hidden">
         <img

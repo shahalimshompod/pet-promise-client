@@ -40,7 +40,7 @@ const DonationCampaignLayout = () => {
                     </h1>
                 </div>
                 <div className="flex flex-col items-center">
-                    <div className="my-8 md:my-12 lg:my-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-12">
+                    <div className="my-8 md:my-12 lg:my-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 xl:gap-12">
                         {isLoading && <CampaignCardSkeleton cards={9} />}
                         {data?.pages.map((page) =>
                             page.map((campaign, idx) => <CampaignCard key={idx} data={campaign} />)

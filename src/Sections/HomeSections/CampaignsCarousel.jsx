@@ -37,15 +37,21 @@ const CampaignsCarousel = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 375,
+                settings: {
                     slidesToShow: 1,
                 }
-            }
+            },
         ]
     };
 
@@ -62,7 +68,7 @@ const CampaignsCarousel = () => {
                 </p>
 
                 {/* Campaigns Carousel */}
-                <div className='my-10 w-full'>
+                <div className='mt-10 w-full'>
                     {isLoading ? (
                         <Slider {...settings}>
                             {[1, 2, 3].map((_, idx) => (
