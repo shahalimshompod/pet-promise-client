@@ -148,6 +148,23 @@ const Navbar = ({ handleDark, isDark }) => {
               About
             </NavLink>
           </li>
+          {/* conditional route */}
+          {user && (
+            <li>
+              <NavLink
+                to="/dashboard"
+                className={({ isActive }) =>
+                  `block px-4 py-2 md:p-0 text-sm poppins ${
+                    isActive
+                      ? "text-cyan-500 font-bold"
+                      : "text-black/60 dark:text-white/70"
+                  }`
+                }
+              >
+                Dashboard
+              </NavLink>
+            </li>
+          )}
         </ul>
 
         <div className="flex items-center gap-5">
